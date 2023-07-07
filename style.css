@@ -1,0 +1,779 @@
+@charset "utf-8";
+@font-face {
+    font-family: title-font;
+    src: url(fonts/nominee-black.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    cursor: pointer !important;
+    transition: scale .2s;
+}
+button:hover{
+    scale: 1.03;
+    background-color: #ffbe3c;
+}
+.header-set{
+    background-color: rgb(148, 118, 118);
+    background-image: url(imgs/goianiacapitaldegoias.webp);
+    background-position-y: 80%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.blackcob{
+    position: absolute;
+    top: 0;
+    display: block;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35898109243697474) 0%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    height: 100%;
+}
+.width-max{
+    width: 910px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 60px 0 95px 0;
+}
+.aling-cont-header-logo{
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.aling-cont-header-logo img{
+    width: 100px;
+    position: relative;
+    display: block;
+    margin: 0 0 10px 0;
+    animation: xxxxxxxx .8s ease-out;
+}
+.aling-cont-header h1{
+    font-family: title-font;
+    font-size: 2.5rem;
+    color: white;
+    display: block;
+}
+.aling-cont-header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2555rem;
+    color: white;
+    letter-spacing: 0.01rem;
+    margin-top: 8px;
+    font-weight: 100;
+    display: block;
+}
+.aling-cont-header button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EDF5FB;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.25555em;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin: 38px 0;
+    font-weight: 800;
+}
+.aling-cont-header{
+    width: 55%;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFA800;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.25555em;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin: 38px 0 0 0;
+    font-weight: 800;
+}
+.bold-yellow{
+    font-weight: 700;
+    color: #FFA800;
+}
+.alin-header-itens{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-mauro{
+    position: relative;
+    width: 32%;
+    animation: animmauro2 1s ease-out;
+}
+@keyframes animmauro2 {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.img-mauro img{
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.title-jobs{
+    background: rgb(242,101,0);
+    background: linear-gradient(90deg, rgba(242,101,0,1) 0%, rgba(255,168,0,1) 51%, rgba(242,101,0,1) 100%);
+    font-family: title-font;
+    text-align: center;
+
+    padding: 20px 0;
+}.title-jobs h2{
+    font-size: 2.1rem;
+}
+.body-cont{
+    width: 100%;
+    padding: 60px 0;
+}
+.title-articles{
+    font-family: title-font;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+article{
+    color: rgb(25, 25, 25);
+    width: 910px;
+    margin: 0 auto;
+}
+.aling-article-cont{
+    position: relative;
+    display: flex;
+}
+.aling-article-cont img{
+    width: 360px;
+    margin-left: 10px;
+    transition: scale .3s;
+    -webkit-box-shadow: 0px 0px 40px -23px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 40px -23px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 40px -23px rgba(0,0,0,0.5);
+    border: 2px solid #FFF;
+    border-radius: 8px;
+}
+.aling-article-cont img:hover{
+    scale: 1.05;
+}
+.aling-article-cont p{
+    font-size: 1.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.backgd-color-contraste{
+    background-color: #ececec;
+}
+.largura-total{
+    background-image: url(imgs/capa-section-lista-02.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    display: block;
+    color: #EDF5FB;
+    padding: 60px 0;
+}
+.horiz-aling{
+    width: 910px;
+    margin: 0 auto;
+    z-index: 2 !important;
+}
+.horiz-aling h2{
+    font-family: title-font;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+}
+.cx-lista{
+    margin: 40px 0 0 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-cx-aplic{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.icon-cx-aplic img{
+    display: block;
+    position: relative;
+    width: 18%;
+    margin: 0 auto;
+}
+.card-cx-aplic{
+    background: rgb(242,101,0);
+    background: linear-gradient(324deg, rgba(242,101,0,1) 0%, rgba(255,168,0,1) 45%);
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .77777rem;
+    position: relative;
+    padding: 30px 20px;
+    display: block;
+    width: 18%;
+}
+.card-cx-aplic h3{
+    margin: 10px auto;
+    text-align: center;
+    color: black;
+    line-height: 1.1rem;
+}
+
+
+.blackcobbbb{
+    position: absolute;
+    top: 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.819) 0%;
+    width: 100%;
+    height: 100%;
+}
+.cxsobre img{
+    width: 280px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    transition: scale .2s;
+    box-shadow: none !important;
+    border: none;
+}
+.cxsobre img:hover{
+    scale: 1.1;
+}
+.cx-alin-feedback{
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;   
+}
+.card-feedback{
+position: relative;
+display: block;
+width: 272px;
+}
+.card-feedback img{
+    width: 38px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.card-feedback p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .07rem;
+    margin: 40px auto 28px auto;
+}
+.card-feedback h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #FFA800;
+    position: relative;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+footer h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+footer h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: .7rem;
+    cursor: pointer;
+}
+footer h4:hover{
+    color: #FFA800;
+}
+.but-feedback{
+    position: relative;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+.listarticle{
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+}
+.styiconlist{
+    color: #FFA800;
+    font-weight:bolder;
+    font-size: 1.8rem;
+}
+.img-mauro::after{
+    content: '';
+    background-image: url(imgs/aromaurocabecalho.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    top: 0;
+    display: block;
+    animation: rotatearomauro 20s infinite;
+}
+@keyframes rotatearomauro{
+    0%{
+        rotate: -10deg;
+    }
+    50%{
+        rotate: 10deg;
+    }
+    100%{
+        rotate: -10deg;
+    }
+}
+.aling-cont-header{
+    
+    animation: xxxxxxxx .8s ease-out;
+}
+@keyframes xxxxxxxx{
+    0% {
+            opacity: 0;
+            transform: translateX(-30px);
+    }
+    100% {
+            opacity: 1;
+            transform: translateX(0px);
+    }
+}
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
+
+@media (max-width: 760px ) {
+    .aling-cont-header{
+        width: 100%;
+    }
+    .card-cx-aplic {
+        width: 36.6666% !important;
+        margin-bottom: 20px !important;
+    }
+    .horiz-aling h2{
+        font-size: 1.3rem !important;
+        padding: 0px 20px!important;
+    }
+    .header-set{
+        background-color: rgb(148, 118, 118);
+        background-image: url(imgs/goianiacapitaldegoias.webp);
+        background-position:35% ;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .width-max{
+        width: 90%;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding: 60px 0 50px 0;
+    }
+    .aling-article-cont{
+        display: block;
+    }
+    .body-cont{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+    }
+    article{
+        width: 90%;
+    }
+    .aling-article-cont img{
+        margin: 20px 0;
+        width: 100%;
+    }
+    .largura-total{
+        background-position-x:-2200px ;
+        background-size: 800%;
+        background-repeat: no-repeat;
+        width: 100% !important;
+        position: relative;
+        display: block;
+        color: #EDF5FB;
+        padding: 60px 0 0 0;
+    }
+    .horiz-aling{
+        width:100%;
+        margin: 0 auto;
+        z-index: 2 !important;
+    }
+    .horiz-aling h2{
+        font-family: title-font;
+        text-align: center;
+        font-size: 2rem;
+        position: relative;
+        
+    }
+    .cx-lista{
+        width: 90%;
+        margin: 40px auto;
+        padding: 0 0 40px 0 !important;
+    }
+    .cx-alin-feedback-resp{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card-feedback{
+        margin: 25px 0;
+        
+    }
+    .card-feedback p{
+        margin: 22px auto 20px auto;
+    }
+    .alin-header-itens {
+        position: relative;
+        display: flex;
+        justify-content:none;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img-mauro{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .aling-cont-header-logo img{
+        width: 80px;
+        position: relative;
+        display: block;
+}
+.aling-cont-header h1{
+    font-size: 1.9rem;
+}
+.aling-cont-header h2{
+    font-size: 1rem;
+}
+.aling-cont-header button{
+    padding: 8px 25px;
+    border: none;
+    border-radius:100px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin: 18px 0;
+    font-weight: 800;
+}
+button{
+    padding: 8px 25px;
+    border: none;
+    border-radius:100px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin: 18px 0;
+    font-weight: 800;
+}
+.header-set{
+    background-color: rgb(148, 118, 118);
+    background-image: url(imgs/goianiacapitaldegoias.webp);
+    background-position-y: 80%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.title-jobs h2{
+    font-size: 1.3rem;
+}
+.title-articles{
+    font-size: 1.3rem;
+}
+.aling-article-cont p{
+    font-size: 1rem;
+}
+.cx-lista{
+    flex-wrap: wrap;
+}
+.horiz-aling h3{
+    font-size:1rem ;
+}
+.card-cx-aplic{
+    width: 35%;
+    margin-bottom: 40px;
+}
+.butSobreMim{
+    margin: 10px auto 20px auto;
+}
+.body-cont {
+    padding: 30px 0;
+}
+.listarticle{
+    font-size: .95555555rem;
+}
+.sobreimgmy{
+    width: 60% !important;
+    margin: 0 auto !important;
+    display: block !important;
+    position: relative !important;
+}
+.cxButwh{/* - Whatsapp flutuante! - */
+    width: 13% !important;
+}
+}
+
+.cxButwh{/* - Whatsapp flutuante! - */
+    position: fixed;
+    display: block;
+    z-index: 5;
+    width: 6%;
+    border-radius: 20%;
+    bottom: 20px;
+    right: 20px;
+    animation: moveInBottom .8s ease-out;
+    cursor: pointer;
+}
+@keyframes moveInBottom{
+    0% {
+            opacity: 0;
+            transform: translateY(30px);
+    }
+    100% {
+            opacity: 1;
+            transform: translateY(0px);
+    }
+}
+.cxButwh::after{
+    content:"";
+    display: block;
+    position: absolute;
+    background-color: #28a745;
+    width: 100%;
+    border-radius: 20%;
+    z-index: -1;
+    height: 100%;
+    top:0;
+    animation:mymove  .8s infinite;
+}
+.cxButwh::before{
+    content:"";
+    display: block;
+    position: absolute;
+    background-color: #28a745;
+    width: 100%;
+    border-radius: 20%;
+    z-index: -1;
+    height: 100%;
+    top:0;
+    animation: mymove .8s infinite;
+}
+@keyframes mymove{
+    0%{
+        opacity:1;
+        scale: 0;
+    }
+    99%{
+        opacity:0;
+        scale: 1.5;
+    }
+    100%{
+        opacity:0;
+        scale: 0;
+    }
+}
+#flut-wp{ /* - Whatsapp flutuante! - */
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+
+
+@media (min-width: 760px ) and (max-width: 910px ){
+
+    .card-cx-aplic{
+        width:18.5%;
+        margin-bottom: 40px;
+    }
+    .card-cx-aplic h3{
+        font-size: 1rem;
+    }
+
+    .aling-cont-header{
+        width: 100%;
+    }
+    .width-max{
+        width: 80%;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding: 60px 0 50px 0;
+    }
+    .aling-article-cont{
+        display: flex;
+    }
+    .body-cont{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+    }
+    article{
+        width: 80%;
+    }
+    .aling-article-cont img{
+        width: 40%;
+        height: 100%;
+    }
+    .largura-total{
+        background-position-x:right;
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100% !important;
+        position: relative;
+        display: block;
+        color: #EDF5FB;
+        padding: 60px 0 0 0;
+    }
+    .horiz-aling{
+        width:100%;
+        margin: 0 auto;
+        z-index: 2 !important;
+    }
+    .horiz-aling h2{
+        font-family: title-font;
+        font-display: auto;
+        font-display: block;
+        font-display: swap;
+        font-display: fallback;
+        font-display: optional;
+        text-align: center;
+        font-size: 2rem;
+        position: relative;
+        max-width: 90% !important;
+        margin: 0 auto;
+    }
+    .cx-lista{
+        width: 90%;
+        margin: 40px auto;
+        padding: 40px 0;
+    }
+    .cx-alin-feedback-resp{
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .card-feedback{
+        margin: 25px 0;
+    }
+    .card-feedback p{
+        margin: 22px auto 20px auto;
+    }
+    .alin-header-itens {
+        position: relative;
+        display: flex;
+        justify-content:none;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img-mauro{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .aling-cont-header-logo img{
+        width: 80px;
+        position: relative;
+        display: block;
+}
+.aling-cont-header h1{
+    font-size: 2.9rem;
+}
+.aling-cont-header h2{
+    font-size: 1.5rem;
+}
+.aling-cont-header button{
+    padding: 8px 25px;
+    border: none;
+    border-radius:100px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin: 18px 0;
+    font-weight: 800;
+}
+button{
+    padding: 8px 25px;
+    border: none;
+    border-radius:100px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin: 18px 0;
+    font-weight: 800;
+}
+.header-set{
+    background-color: rgb(148, 118, 118);
+    background-image: url(imgs/goianiacapitaldegoias.webp);
+    background-position-y: 80%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.title-jobs h2{
+    font-size: 1.3rem;
+}
+.title-articles{
+    font-size: 1.3rem;
+}
+.aling-article-cont p{
+    font-size: 1rem;
+}
+.horiz-aling h2 ,h3{
+    font-size:1.3rem ;
+}
+.butSobreMim{
+    margin: 0 auto 20px 0;
+}
+.body-cont {
+    padding: 30px 0;
+}
+.listarticle{
+    font-size: .95555555rem;
+}
+.sobreimgmy{
+    width: 35% !important;
+}
+.cxButwh{/* - Whatsapp flutuante! - */
+    width: 13% !important;
+}
+}
